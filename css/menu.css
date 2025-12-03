@@ -1,0 +1,37 @@
+#chk-burger{
+    display: none;
+}
+
+.navigation{
+position: fixed;
+top: 60px;
+right: 60px;
+text-align: right;
+}
+
+.navigation__menu a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+display: block;
+text-decoration: none;
+background-color: #fcfcfc4e;
+padding: 4px;
+margin: 5px;
+color: #fff;
+font-size: 2rem;
+}
+
+.navigation__bouton{
+    position: fixed;
+    right: 20px;
+    color: #fff;
+}
+
+.navigation__menu  {
+display: none;
+background-color: #0000004e;
+padding: 10px;
+}
+
+#chk-burger:checked ~ .navigation__menu{
+display: block;
+}
